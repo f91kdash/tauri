@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0-rc.14]
+
+- Fixes multiple occurrences handling of the `bundles` and `features` arguments.
+  - [f685df39](https://www.github.com/tauri-apps/tauri/commit/f685df399a5a05480b6e4f5d92da71f3b87895ef) fix(cli): parsing of arguments with multiple values, closes [#4231](https://www.github.com/tauri-apps/tauri/pull/4231) ([#4233](https://www.github.com/tauri-apps/tauri/pull/4233)) on 2022-05-29
+
 ## \[1.0.0-rc.13]
 
 - Check if `$CWD/src-tauri/tauri.conf.json` exists before walking through the file tree to find the tauri dir in case the whole project is gitignored.

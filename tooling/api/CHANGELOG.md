@@ -1,5 +1,14 @@
 # Changelog
 
+## \[1.0.0-rc.7]
+
+- Added the `resolveResource` API to the path module.
+  - [7bba8db8](https://www.github.com/tauri-apps/tauri/commit/7bba8db83ead92e9bd9c4be7863742e71ac47513) feat(api): add `resolveResource` API to the path module ([#4234](https://www.github.com/tauri-apps/tauri/pull/4234)) on 2022-05-29
+- Renamed `writeFile` to `writeTextFile` but kept the original function for backwards compatibility.
+  - [3f998ca2](https://www.github.com/tauri-apps/tauri/commit/3f998ca29445a349489078a74dd068e157a4d68e) feat(api): add `writeTextFile` and `(path, contents, options)` overload ([#4228](https://www.github.com/tauri-apps/tauri/pull/4228)) on 2022-05-29
+- Added `(path, contents[, options])` overload to the `writeTextFile` and `writeBinaryFile` APIs.
+  - [3f998ca2](https://www.github.com/tauri-apps/tauri/commit/3f998ca29445a349489078a74dd068e157a4d68e) feat(api): add `writeTextFile` and `(path, contents, options)` overload ([#4228](https://www.github.com/tauri-apps/tauri/pull/4228)) on 2022-05-29
+
 ## \[1.0.0-rc.6]
 
 - Expose option to set the dialog type.
